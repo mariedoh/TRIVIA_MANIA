@@ -1,0 +1,75 @@
+body{
+    background-image: url("../images/loginbg.jpg");
+}
+
+.glow {
+    font-family: cursive;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f2bae4, 0 0 40px 	#f2bae4, 0 0 50px 	#f2bae4, 0 0 60px 	#f2bae4, 0 0 70px 	#f2bae4;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+  
+#maindiv{
+    height: 70%;
+    width: 25%;
+    margin-left:37%;
+    margin-top: 7.5%;
+    display: flex;
+    opacity: 0.75;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-self: center;
+    align-self: center;
+}
+#maindiv h1{
+    color: white;
+    font-weight: bolder;
+    align-self: center;
+}
+input{
+    border-radius: 40px;
+    margin: 2%;
+    width: 90%;
+    align-self: center;
+    opacity: 0.5;
+    padding: 5%;
+}
+#inputSe{
+    align-self: center;
+    border-radius: 40px;
+    margin: 2%;
+    width: 70%;
+    opacity: 0.5;
+    padding: 5%;
+}
+#button{
+    background-color: #C3B1E1;
+    color: black;
+    border-radius: 40px; 
+    padding: 4.5%; 
+    width: 50%;  
+    align-self: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+#textdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+}
+
+
